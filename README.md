@@ -10,6 +10,14 @@ We have two new flavors of the MoDrAg drug design helper agent! Both are a groun
 - HuggingFace demo for the [OpenAI Agent](https://huggingface.co/spaces/cafierom/MoDrAg2-OpenAI)
 - Use a notebook to run Semantic MoDrAg [on Colab!](https://github.com/MauricioCafiero/MoDrAg/blob/main/SemanticMoDrAg/MoDrAg2_CafChem.ipynb)
 
+## Ollama Chat
+A simple command-line chatbot using Ollama including RAG functionality.
+- Runs from a [short page of code!](https://github.com/MauricioCafiero/CafChemTeach/blob/main/ollama_chat_rag.py)
+- Read in a PDF and chat with the document
+- Create a custom model right in the chat.
+- Local model does not send your data anywhere!
+- Requires Ollama to be installed on your machine. See [this page](https://github.com/MauricioCafiero/CafChemTeach/blob/main/using_ollama.md) to get started!
+
 ## Quantum computing intro
 Find background on the quantum mechanics of quantum computing as well as introductions to quantum computing with Q#, Cirq and Qiskit!
 - See the repo [here!](https://github.com/MauricioCafiero/CafChemQuantum)
