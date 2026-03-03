@@ -18,6 +18,10 @@ A simple command-line chatbot using Ollama including RAG functionality.
 - Local model does not send your data anywhere!
 - Requires Ollama to be installed on your machine. See [this page](https://github.com/MauricioCafiero/CafChemTeach/blob/main/using_ollama.md) to get started!
 
+## MACE training
+Simplified code for training and fine-tuning MACE machine-learned interatomic potiential models
+- [Notebook](https://github.com/MauricioCafiero/MACE_training/tree/main)
+  
 ## Quantum computing intro
 Find background on the quantum mechanics of quantum computing as well as introductions to quantum computing with Q#, Cirq and Qiskit!
 - See the repo [here!](https://github.com/MauricioCafiero/CafChemQuantum)
