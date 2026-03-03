@@ -20,7 +20,7 @@ A simple command-line chatbot using Ollama including RAG functionality.
 
 ## MACE training
 Simplified code for training and fine-tuning MACE machine-learned interatomic potiential models
-- [Notebook](https://github.com/MauricioCafiero/MACE_training/tree/main)
+- [Repo](https://github.com/MauricioCafiero/MACE_training/tree/main) with code and notebook
   
 ## Quantum computing intro
 Find background on the quantum mechanics of quantum computing as well as introductions to quantum computing with Q#, Cirq and Qiskit!
