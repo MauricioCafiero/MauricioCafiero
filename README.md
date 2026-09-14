@@ -36,9 +36,13 @@ An OpenMM molecular-dynamics pipeline for solvated protein/ligand complexes and 
 - [fold](https://github.com/MauricioCafiero/fold) — protein structure prediction and cofolding
 - [MD_openmm](https://github.com/MauricioCafiero/MD_openmm) — OpenMM molecular dynamics pipeline
 - [Boltz](https://github.com/MauricioCafiero/Boltz) — scripts for running Boltz on the API
+- [boltz_local](https://github.com/MauricioCafiero/boltz_local) — Boltz-2 protein/ligand cofolding and affinity on Apple silicon (MPS)
+- [cafprot](https://github.com/MauricioCafiero/cafprot) — pH-aware protonation for ligands (SMILES) and receptors (PDB)
 - [FAO_MOLPROP_CLI](https://github.com/MauricioCafiero/FAO_MOLPROP_CLI) — adversarial molecule optimization from the CLI
 - [MolecularPropertyOptimization](https://github.com/MauricioCafiero/MolecularPropertyOptimization) — agentic molecular property optimization
 - [sim_assist](https://github.com/MauricioCafiero/sim_assist) — molecular similarity measures
+- [pocket_assist](https://github.com/MauricioCafiero/pocket_assist) — binding-pocket shape and electrostatic similarity (open-source SiteHopper-style)
+- [bioisostere_assist](https://github.com/MauricioCafiero/bioisostere_assist) — shape-bioisosteric fragment swapping to generate lead analogues
 - [GenMask](https://github.com/MauricioCafiero/GenMask) — hit expansion via token unmasking
 - [SMILES_GPT](https://github.com/MauricioCafiero/SMILES_GPT) — GPT for SMILES generation
 - [SMILES_VAE](https://github.com/MauricioCafiero/SMILES_VAE) — variational SMILES autoencoder
