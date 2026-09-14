@@ -17,6 +17,15 @@ A full-featured command-line version of the MOdular DRug design AGent, with rich
 ### [admet_assist](https://github.com/MauricioCafiero/admet_assist)
 Local, no-network ADMET prediction from SMILES using two independent Chemprop v2 MPNN model families — ADMET-AI (52 endpoints + DrugBank percentiles) and Admetica (22 per-endpoint models with applicability-domain scores) — each shipped as both a batch CLI and an LLM-callable tool.
 
+### [sim_assist](https://github.com/MauricioCafiero/sim_assist)
+A conversational molecular-similarity agent (powered by Ollama): ask *"how similar is ibuprofen to naproxen?"* or *"cluster these molecules by 3D shape"* and it picks the right tool — Fraggle 2D scaffold distance, ODDT 3D shape (USR / USRCAT / ElectroShape), or pharmacophore-feature comparison — in reference-vs-list or all-vs-all matrix mode.
+
+### [pocket_assist](https://github.com/MauricioCafiero/pocket_assist)
+Binding-site shape and electrostatic similarity in the spirit of OpenEye's SiteHopper, with no license required. Extracts a capped, AMBER-charged pocket from any PDB, maps its enclosed cavity as a charge-colored point cloud, and scores shape and charge-color Tanimotos at the best superposition — useful for off-target and polypharmacology risk.
+
+### [bioisostere_assist](https://github.com/MauricioCafiero/bioisostere_assist)
+Finds shape-bioisosteric substituent swaps for a lead molecule using RDKit fragmentation and ODDT shape descriptors. Queries a shipped 100K drug-like fragment library in seconds, grafts the best matches back onto the lead's core to build real analogues, and optionally docks them with AutoDock Vina to compare against the lead.
+
 ### [fold](https://github.com/MauricioCafiero/fold)
 Protein structure prediction and protein/ligand cofolding with no local GPU required. OpenFold3, RosettaFold3, and ESMFold run on Modal GPUs on demand, while ESM2 embeddings run locally on CPU.
 
